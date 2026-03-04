@@ -1,0 +1,52 @@
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# 虚拟环境
+venv/
+env/
+.env
+myenv/
+.venv/
+
+# IDE/编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 项目生成的图片文件
+*.png
+*.jpg
+!README.mdgit branch -m master main
+git push -u origin main
+git push origin --delete master   # 可选删除远程旧分支
+*.jpeg
+*.gif
+img.png
+img_1.png
+screenshots/
+assets/
+
+# 日志文件
+*.log
+logs/
+
+# 本地配置文件
+config.local.py
+*.conf
+
+# 测试输出
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Pygame 可能生成的文件
+game_state.pkl
+*.save
